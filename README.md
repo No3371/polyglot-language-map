@@ -3,6 +3,8 @@ This utility aims to provide a solution to some ploblems when using [Polyglot](h
 - No native way to know what languages a page/post is localized to. 
 - No native way to have a list of what pages/posts are localized for every language.
 
+You can check the [simple demo page](https://no3371.github.io/blog/polyglot-index-example.html) rendered with Liquid to grt the map/index generated, and [the source of the page](polyglot-index-example.html).
+
 ## Feature
 - Generate *polyglot-index* and *polyglot-map* in your `_data` folder, so you access them with Liquid.
     - **polyglot-index**: page/post -> localizations
@@ -24,6 +26,8 @@ Place stuff to whereever you want:
 
 Actually only the script is needed here, the batch files are just provided for convenience.
 **The script is designed to be run from the root path of your Jekyll site (where _data, _post resides). Running from elsewhere is not bug-free guaranteed.**
+
+## Contribution
 
 ## Copyright
 Copyright (c) Ren Chen 2020. License: MIT
