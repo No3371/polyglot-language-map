@@ -6,7 +6,7 @@ This utility aims to provide a solution to some ploblems when using [Polyglot](h
 You can check the [simple demo page](https://no3371.github.io/blog/polyglot-index-example.html) rendered with Liquid to grt the map/index generated, and [the source of the page](polyglot-index-example.html).
 
 ## Feature
-- Generate *polyglot-index* and *polyglot-map* in your `_data` folder, so you access them with Liquid.
+- It checks files in your path, looks for pages/posts interested by [Polyglot](https://github.com/untra/polyglot), then generate *polyglot-index* and *polyglot-map* in your `_data` folder, so you access them with Liquid.
     - **polyglot-index**: page/post -> localizations
     - **polyglot-map**: localizatio -> pages/posts
 - Simple to use, `ruby _utils/polyglot-indexing.rb`could be added to Travis scripts.
