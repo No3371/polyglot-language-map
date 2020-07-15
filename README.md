@@ -7,7 +7,7 @@ This utility aims to provide a solution to some ploblems when using [Polyglot](h
 - Generate *polyglot-index* and *polyglot-map* in your `_data` folder, so you access them with Liquid.
     - **polyglot-index**: page/post -> localizations
     - **polyglot-map**: localizatio -> pages/posts
-- One click to use, could be added to Travis scripts.
+- Simple to use, `ruby _utils/polyglot-indexing.rb`could be added to Travis scripts.
 - Read your `_config.yml` to automatically know your `languages` and the `default_lang`.
 - Fully customizable, the script is easy to modify:
     - **map_file_path**: where the map store.
